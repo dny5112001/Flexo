@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect("mongodb://localhost:27017/Flexo");
+mongoose.connect("Add your database link here");
 
 let userCredentialSchema = mongoose.Schema({
     name:String,
