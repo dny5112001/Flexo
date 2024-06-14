@@ -1,0 +1,29 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+    gap: 20px;
+    border :1px solid #494848;
+}
+
+.container1 img{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.container1 div{
+    width: 90%;
+}
+
+.container1 div .person-name{
+    font-size:20px;
+    font-weight: 500;
+}

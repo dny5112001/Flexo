@@ -1,0 +1,107 @@
+.viewProfile{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px 50px;
+  margin: 0px 20px;
+  border-radius: 6px;
+  background-color: rgba(255,255,255,0.2);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+.viewprofile-container img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+
+.viewProfile-1 h2{
+  font-size: 30px;
+  color: #dadada;
+  font-size: 500;
+  text-transform: uppercase;
+}
+
+.viewProfile-1 .socials{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.viewProfile-1 .socials p{
+  padding-right: 10px;
+  font-weight: 500;
+  color: #dadada;
+}
+
+
+.viewProfile-1 .socials img{
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.viewProfile-2{
+  margin-top: 20px;
+  color: #dadada;
+}
+
+.viewProfile-2 h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.viewProfile-2 ul{
+  list-style: none;
+  padding: 10px;
+}
+
+
+.viewProfile-2 ul li{
+  font-size: 18px;
+  line-height: 1.2; 
+}
+
+.viewProfile-3{
+  margin-top: 20px;
+  color: #dadada;
+}
+
+.viewProfile-3-img-container img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.viewProfile-3 h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.viewProfile-3 div{
+  display: flex;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left:20px ;
+}

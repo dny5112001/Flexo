@@ -1,0 +1,244 @@
+.homepage-container{
+    width: 100%;
+    position: relative;
+    background:linear-gradient(to bottom right,#151716,#253437,#205E5D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240vh;
+    color: #dadada;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.homepage-container-left{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    background-color: rgba(255,255,255, 0.1);
+    border :1px solid #494848;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+}
+
+
+.homepage-container-left h1{
+    font-size: 6.5vw;
+    display: block;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.homepage-container-left span button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    background: linear-gradient(to right,#6ba6ab,#0F9AB8);
+    margin-left: 5px;
+}
+
+.homepage-container-left span button:hover{
+    border: 1px solid  #0F9AB8;
+    background: transparent;
+    color: #0F9AB8;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.homepage-container-left p{
+    font-size: 20px;
+}
+
+.home-container1{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: rotateZ(-20deg);
+    z-index: 5;
+}
+.home-container2{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 68%;
+    transform: rotateZ(30deg);
+}
+.home-container3{
+    width: 190px;
+    height: 280px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: rotateZ(-10deg);
+}
+
+
+.domain-selection-category{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    -webkit-transform: skew(0, -4.76deg);
+    top: 900px;
+    width: 100%;
+    padding: 0px 50px;
+    height: 80px;
+    background-color:rgba(255,255,255, 0.1);
+}
+
+
+
+.homepage-connect-option{
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 20vw;
+}
+
+.homepage-connect-option-img-container {
+    height: 320px;
+    width: 320px;
+    background-color:rgba(255,255,255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.homepage-connect-option-img-content{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.homepage-connect-text{
+    width: 600px;
+    height: 320px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 50px;
+    align-items: start;
+}
+
+.homepage-connect-text span{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.homepage-connect-text div p{
+    font-size: 18px;
+}
+
+.homepage-connect-text div button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  #0F9AB8;
+    background-color: transparent;
+    color: #0F9AB8;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.homepage-connect-text div button:hover{
+    border: none;
+    color: #dadada;
+    background: linear-gradient(to right,#6ba6ab,#0F9AB8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:  1300px){
+    .homepage-container-left h1{
+        font-size: 5.5vw;
+    }
+
+    .homepage-container-left span button{
+        width: 100px;
+        height: 38px;
+        font-size:18px;
+    }
+
+    .home-container1{
+        width:150px;
+        height: 200px;
+    }
+    .home-container2{
+        width:200px;
+        height: 300px;
+    }
+    .home-container3{
+        width:150px;
+        height: 200px;
+    }
+
+}
+@media (max-width:  800px){
+    .homepage-container-left{
+        width: 60%;
+        height: 400px;
+    }
+    .homepage-container-left h1{
+        font-size: 5vw;
+    }
+    .homepage-container-left span button{
+        width: 90px;
+        height: 36px;
+        font-size: 16px;
+    }
+}
+@media (max-width:  500px){
+    .homepage-container-left{
+        width: 70%;
+        height: 400px;
+    }
+    .homepage-container-left h1{
+        font-size: 6.5vw;
+        line-height: 1.5;
+    }
+    .homepage-container-left span button{
+        width: 80px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .homepage-container-left p{
+        text-align: left;
+    }
+
+}

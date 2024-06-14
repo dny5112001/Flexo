@@ -1,0 +1,10 @@
+.userprofile{
+    width:100%;
+    background:linear-gradient(to bottom right,#151716,#253437,#205E5D);
+    background-size: cover;
+    background-position: center;
+    color: #dadada;
+    min-height: 100vh;
+    display: flex;
+    padding: 50px 30px;
+}

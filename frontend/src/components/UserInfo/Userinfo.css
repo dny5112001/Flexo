@@ -1,0 +1,200 @@
+.userinfo{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 0px 20px;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fafafa
+}
+
+.profilepic-selector label img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(242, 238, 238) ;
+    padding: 2px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.userinfo-1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.userinfo-1 div h3{
+    font-size:40px;
+}
+
+.userinfo-2{
+    width: 100% ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+.userinfo-2 .form1{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+.userinfo-2 .form2{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+.userinfo-2 .form3{
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.userinfo-2 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.userinfo-2 input{
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    background: rgba(255,255,255,0.7);
+}
+
+.userinfo-3{
+    width: 100% ;
+    display: flex;
+    flex-direction: column  ;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.userinfo-3 p{
+    font-size:20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.userinfo-3 div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.userinfo-3 div p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.9);
+    color: #205E5D;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.userinfo-3 input{
+    width: 500px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    background: rgba(255,255,255,0.7);
+}
+
+.userinfo-4{
+    width: 100% ;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.userinfo-4 p{
+    font-size:20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.userinfo .project-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.project-container label img{
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid rgb(242, 238, 238) ;
+    padding: 2px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-container .projectDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+
+.projectDetails input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    background: rgba(255,255,255,0.7);   
+}
+
+.projectDetails p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.9);
+    color: #205E5D;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.userinfo-4 .save button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #205E5D;
+
+}
